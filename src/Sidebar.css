@@ -1,0 +1,53 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+   
+}
+
+.Sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+}
+
+.Sidebar-headerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+
+.Sidebar-search{
+    display: flex;
+    background-color: #f6f6f6;
+    align-items: center;
+    height:39px;
+    padding:20px;
+}
+
+.Sidebar-searchContainer{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height:35px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*    .Sidebar-searchContainer > .MuiSvgIcon-root{
+    color:red;
+}  Not Working   */      
+
+.Sidebar-searchContainer > input{
+    border:none;
+    outline: 0;
+    margin-left: 10px;
+}
+
+.Sidebar-chat{
+    flex:1;              /* Applied Based on its parent flex value 0.35 */
+    background-color: white;
+    overflow: scroll;                      /* If the <SidebarChat /> component overflows this .Sidebar-chat container scroll bar will be included */
+}
