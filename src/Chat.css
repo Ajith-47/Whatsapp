@@ -80,7 +80,7 @@
     border-radius: 30px;
     border: none;
     padding: 10px;
-    outline: none;
+    outline: 1px;
 }
 
 .Chat-footer > form >button{
